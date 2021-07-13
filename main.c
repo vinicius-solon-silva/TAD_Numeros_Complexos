@@ -1,17 +1,3 @@
-/*
-Alunos:                 RA:
-
-Vinicius Solon Silva    2760482011020
-
-Matheus Bosco           2760482011034
-
-Rafael Neder            2760482011026
-
-Felipe Costa            2760482011015
-
-Guilherme Brunelli      2760482011050
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -49,7 +35,7 @@ int main()
     Complex *mult = (Complex*)malloc(sizeof(Complex));
     mult = multiply(c1,c2);
 
-    // Potenciação dos no's complexos:
+    // PotenciaÃ§Ã£o dos no's complexos:
     Complex *poten1 = (Complex*)malloc(sizeof(Complex));
     poten1 = pot(c1,c2);
     Complex *poten2 = (Complex*)malloc(sizeof(Complex));
@@ -62,7 +48,7 @@ int main()
     printf("\n\n Resultado da Multiplicacao de c1 e c2: %d + %di", mult->real, mult->img);
     printf("\n\n Resultado da Potenciacao de c1 e c2: c1 = %d + %di \t c2 = %d + %di\n", poten1->real, poten1->img, poten2->real, poten2->img);
 
-    // Liberando espaço de memória alocado no HEAP:
+    // Liberando espaÃ§o de memÃ³ria alocado no HEAP:
     free(c1);
     free(c2);
     free(soma);
