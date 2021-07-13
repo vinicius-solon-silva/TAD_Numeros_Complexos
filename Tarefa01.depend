@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1617064000 source:c:\users\usuario\onedrive\vinicius\fatec campinas\3º semestre\estruturas de dados\tarefa 1\tarefa01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"Complexos.h"
+
+1617063636 source:c:\users\usuario\onedrive\vinicius\fatec campinas\3º semestre\estruturas de dados\tarefa 1\tarefa01\complexos.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"Complexos.h"
+
+1617033220 c:\users\usuario\onedrive\vinicius\fatec campinas\3º semestre\estruturas de dados\tarefa 1\tarefa01\complexos.h
+
